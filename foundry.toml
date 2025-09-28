@@ -5,6 +5,7 @@ libs = ["lib"]
 remappings = [
     "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
     "murky/=lib/murky/",
+    "foundry-devops/=lib/foundry-devops/"
 ]
 
 fs_permissions = [{ access = "read-write", path = "./" }]
